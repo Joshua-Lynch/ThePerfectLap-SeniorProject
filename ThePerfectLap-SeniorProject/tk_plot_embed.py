@@ -2,6 +2,7 @@ import tkinter as tk
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
+# Simple Tkinter window embedding a Matplotlib plot
 root = tk.Tk()
 root.title("Tkinter + Matplotlib Smoke Test")
 root.geometry("600x400")

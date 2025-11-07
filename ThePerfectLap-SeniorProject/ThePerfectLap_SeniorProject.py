@@ -1,7 +1,11 @@
 import fastf1
 import matplotlib.pyplot as plt
 import pandas as pd
+import os
 
+cache_dir = os.path.join(os.getcwd(), "cache")
+os.makedirs(cache_dir, exist_ok=True)
+fastf1.Cache.enable_cache(cache_dir)
 
 fastf1.Cache.enable_cache("cache")
 year, event, session = 2024, "Monaco Grand Prix", "Q"

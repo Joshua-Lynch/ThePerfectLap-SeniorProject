@@ -21,9 +21,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="f1_gui.py" />
     <Compile Include="ThePerfectLap_SeniorProject.py" />
-    <Compile Include="tk_plot_embed.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\" />
+    <Folder Include="assets\slideshow\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\slideshow\08-78be979cdcf940649390a65e1715ed87.jpg" />
+    <Content Include="assets\slideshow\201116083317-lewis-hamilton-turkey.jpg" />
+    <Content Include="assets\slideshow\MV-1-scaled.jpg" />
+    <Content Include="F1 theme by Brian Tyler.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
